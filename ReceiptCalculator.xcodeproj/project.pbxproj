@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BB08912AD217460076007A /* ReceiptCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08902AD217460076007A /* ReceiptCalculatorApp.swift */; };
+		F4BB08932AD217460076007A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08922AD217460076007A /* ContentView.swift */; };
+		F4BB08952AD217470076007A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BB08942AD217470076007A /* Assets.xcassets */; };
+		F4BB08982AD217470076007A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BB08972AD217470076007A /* Preview Assets.xcassets */; };
+		F4BB089A2AD217470076007A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08992AD217470076007A /* Persistence.swift */; };
+		F4BB089D2AD217470076007A /* ReceiptCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4BB089B2AD217470076007A /* ReceiptCalculator.xcdatamodeld */; };
+		F4BB08A72AD217470076007A /* ReceiptCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08A62AD217470076007A /* ReceiptCalculatorTests.swift */; };
+		F4BB08B12AD217470076007A /* ReceiptCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08B02AD217470076007A /* ReceiptCalculatorUITests.swift */; };
+		F4BB08B32AD217470076007A /* ReceiptCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08B22AD217470076007A /* ReceiptCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4BB08A32AD217470076007A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BB08852AD217460076007A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BB088C2AD217460076007A;
+			remoteInfo = ReceiptCalculator;
+		};
+		F4BB08AD2AD217470076007A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BB08852AD217460076007A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BB088C2AD217460076007A;
+			remoteInfo = ReceiptCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4BB088D2AD217460076007A /* ReceiptCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BB08902AD217460076007A /* ReceiptCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCalculatorApp.swift; sourceTree = "<group>"; };
+		F4BB08922AD217460076007A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4BB08942AD217470076007A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4BB08972AD217470076007A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4BB08992AD217470076007A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F4BB089C2AD217470076007A /* ReceiptCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReceiptCalculator.xcdatamodel; sourceTree = "<group>"; };
+		F4BB08A22AD217470076007A /* ReceiptCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BB08A62AD217470076007A /* ReceiptCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCalculatorTests.swift; sourceTree = "<group>"; };
+		F4BB08AC2AD217470076007A /* ReceiptCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BB08B02AD217470076007A /* ReceiptCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCalculatorUITests.swift; sourceTree = "<group>"; };
+		F4BB08B22AD217470076007A /* ReceiptCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BB088A2AD217460076007A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB089F2AD217470076007A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB08A92AD217470076007A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BB08842AD217460076007A = {
+			isa = PBXGroup;
+			children = (
+				F4BB088F2AD217460076007A /* ReceiptCalculator */,
+				F4BB08A52AD217470076007A /* ReceiptCalculatorTests */,
+				F4BB08AF2AD217470076007A /* ReceiptCalculatorUITests */,
+				F4BB088E2AD217460076007A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BB088E2AD217460076007A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB088D2AD217460076007A /* ReceiptCalculator.app */,
+				F4BB08A22AD217470076007A /* ReceiptCalculatorTests.xctest */,
+				F4BB08AC2AD217470076007A /* ReceiptCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BB088F2AD217460076007A /* ReceiptCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB08902AD217460076007A /* ReceiptCalculatorApp.swift */,
+				F4BB08922AD217460076007A /* ContentView.swift */,
+				F4BB08942AD217470076007A /* Assets.xcassets */,
+				F4BB08992AD217470076007A /* Persistence.swift */,
+				F4BB089B2AD217470076007A /* ReceiptCalculator.xcdatamodeld */,
+				F4BB08962AD217470076007A /* Preview Content */,
+			);
+			path = ReceiptCalculator;
+			sourceTree = "<group>";
+		};
+		F4BB08962AD217470076007A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB08972AD217470076007A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4BB08A52AD217470076007A /* ReceiptCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB08A62AD217470076007A /* ReceiptCalculatorTests.swift */,
+			);
+			path = ReceiptCalculatorTests;
+			sourceTree = "<group>";
+		};
+		F4BB08AF2AD217470076007A /* ReceiptCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB08B02AD217470076007A /* ReceiptCalculatorUITests.swift */,
+				F4BB08B22AD217470076007A /* ReceiptCalculatorUITestsLaunchTests.swift */,
+			);
+			path = ReceiptCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BB088C2AD217460076007A /* ReceiptCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BB08B62AD217470076007A /* Build configuration list for PBXNativeTarget "ReceiptCalculator" */;
+			buildPhases = (
+				F4BB08892AD217460076007A /* Sources */,
+				F4BB088A2AD217460076007A /* Frameworks */,
+				F4BB088B2AD217460076007A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceiptCalculator;
+			productName = ReceiptCalculator;
+			productReference = F4BB088D2AD217460076007A /* ReceiptCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4BB08A12AD217470076007A /* ReceiptCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BB08B92AD217470076007A /* Build configuration list for PBXNativeTarget "ReceiptCalculatorTests" */;
+			buildPhases = (
+				F4BB089E2AD217470076007A /* Sources */,
+				F4BB089F2AD217470076007A /* Frameworks */,
+				F4BB08A02AD217470076007A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BB08A42AD217470076007A /* PBXTargetDependency */,
+			);
+			name = ReceiptCalculatorTests;
+			productName = ReceiptCalculatorTests;
+			productReference = F4BB08A22AD217470076007A /* ReceiptCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4BB08AB2AD217470076007A /* ReceiptCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BB08BC2AD217470076007A /* Build configuration list for PBXNativeTarget "ReceiptCalculatorUITests" */;
+			buildPhases = (
+				F4BB08A82AD217470076007A /* Sources */,
+				F4BB08A92AD217470076007A /* Frameworks */,
+				F4BB08AA2AD217470076007A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BB08AE2AD217470076007A /* PBXTargetDependency */,
+			);
+			name = ReceiptCalculatorUITests;
+			productName = ReceiptCalculatorUITests;
+			productReference = F4BB08AC2AD217470076007A /* ReceiptCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BB08852AD217460076007A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F4BB088C2AD217460076007A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F4BB08A12AD217470076007A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F4BB088C2AD217460076007A;
+					};
+					F4BB08AB2AD217470076007A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F4BB088C2AD217460076007A;
+					};
+				};
+			};
+			buildConfigurationList = F4BB08882AD217460076007A /* Build configuration list for PBXProject "ReceiptCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BB08842AD217460076007A;
+			productRefGroup = F4BB088E2AD217460076007A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BB088C2AD217460076007A /* ReceiptCalculator */,
+				F4BB08A12AD217470076007A /* ReceiptCalculatorTests */,
+				F4BB08AB2AD217470076007A /* ReceiptCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BB088B2AD217460076007A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BB08982AD217470076007A /* Preview Assets.xcassets in Resources */,
+				F4BB08952AD217470076007A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB08A02AD217470076007A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB08AA2AD217470076007A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BB08892AD217460076007A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BB089D2AD217470076007A /* ReceiptCalculator.xcdatamodeld in Sources */,
+				F4BB089A2AD217470076007A /* Persistence.swift in Sources */,
+				F4BB08932AD217460076007A /* ContentView.swift in Sources */,
+				F4BB08912AD217460076007A /* ReceiptCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB089E2AD217470076007A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BB08A72AD217470076007A /* ReceiptCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB08A82AD217470076007A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BB08B12AD217470076007A /* ReceiptCalculatorUITests.swift in Sources */,
+				F4BB08B32AD217470076007A /* ReceiptCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BB08A42AD217470076007A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BB088C2AD217460076007A /* ReceiptCalculator */;
+			targetProxy = F4BB08A32AD217470076007A /* PBXContainerItemProxy */;
+		};
+		F4BB08AE2AD217470076007A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BB088C2AD217460076007A /* ReceiptCalculator */;
+			targetProxy = F4BB08AD2AD217470076007A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4BB08B42AD217470076007A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4BB08B52AD217470076007A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BB08B72AD217470076007A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReceiptCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = TX27KF3L8R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BobsProjects.ReceiptCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BB08B82AD217470076007A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReceiptCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = TX27KF3L8R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BobsProjects.ReceiptCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4BB08BA2AD217470076007A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX27KF3L8R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BobsProjects.ReceiptCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReceiptCalculator";
+			};
+			name = Debug;
+		};
+		F4BB08BB2AD217470076007A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX27KF3L8R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BobsProjects.ReceiptCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReceiptCalculator";
+			};
+			name = Release;
+		};
+		F4BB08BD2AD217470076007A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX27KF3L8R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BobsProjects.ReceiptCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceiptCalculator;
+			};
+			name = Debug;
+		};
+		F4BB08BE2AD217470076007A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX27KF3L8R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BobsProjects.ReceiptCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceiptCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BB08882AD217460076007A /* Build configuration list for PBXProject "ReceiptCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BB08B42AD217470076007A /* Debug */,
+				F4BB08B52AD217470076007A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BB08B62AD217470076007A /* Build configuration list for PBXNativeTarget "ReceiptCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BB08B72AD217470076007A /* Debug */,
+				F4BB08B82AD217470076007A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BB08B92AD217470076007A /* Build configuration list for PBXNativeTarget "ReceiptCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BB08BA2AD217470076007A /* Debug */,
+				F4BB08BB2AD217470076007A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BB08BC2AD217470076007A /* Build configuration list for PBXNativeTarget "ReceiptCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BB08BD2AD217470076007A /* Debug */,
+				F4BB08BE2AD217470076007A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4BB089B2AD217470076007A /* ReceiptCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4BB089C2AD217470076007A /* ReceiptCalculator.xcdatamodel */,
+			);
+			currentVersion = F4BB089C2AD217470076007A /* ReceiptCalculator.xcdatamodel */;
+			path = ReceiptCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4BB08852AD217460076007A /* Project object */;
+}
