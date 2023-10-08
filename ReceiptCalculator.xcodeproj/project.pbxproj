@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F457CE132AD22E83005B5F14 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F457CE122AD22E83005B5F14 /* util.swift */; };
+		F47D23D32AD31B64005B563B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47D23D22AD31B64005B563B /* Assets.xcassets */; };
 		F4BB08912AD217460076007A /* ReceiptCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08902AD217460076007A /* ReceiptCalculatorApp.swift */; };
 		F4BB08932AD217460076007A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08922AD217460076007A /* ContentView.swift */; };
-		F4BB08952AD217470076007A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BB08942AD217470076007A /* Assets.xcassets */; };
 		F4BB08982AD217470076007A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BB08972AD217470076007A /* Preview Assets.xcassets */; };
 		F4BB089A2AD217470076007A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB08992AD217470076007A /* Persistence.swift */; };
 		F4BB089D2AD217470076007A /* ReceiptCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4BB089B2AD217470076007A /* ReceiptCalculator.xcdatamodeld */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F457CE122AD22E83005B5F14 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		F47D23D22AD31B64005B563B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		F4BB088D2AD217460076007A /* ReceiptCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BB08902AD217460076007A /* ReceiptCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCalculatorApp.swift; sourceTree = "<group>"; };
 		F4BB08922AD217460076007A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F4BB08942AD217470076007A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4BB08972AD217470076007A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4BB08992AD217470076007A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F4BB089C2AD217470076007A /* ReceiptCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReceiptCalculator.xcdatamodel; sourceTree = "<group>"; };
@@ -100,7 +102,8 @@
 			children = (
 				F4BB08902AD217460076007A /* ReceiptCalculatorApp.swift */,
 				F4BB08922AD217460076007A /* ContentView.swift */,
-				F4BB08942AD217470076007A /* Assets.xcassets */,
+				F457CE122AD22E83005B5F14 /* util.swift */,
+				F47D23D22AD31B64005B563B /* Assets.xcassets */,
 				F4BB08992AD217470076007A /* Persistence.swift */,
 				F4BB089B2AD217470076007A /* ReceiptCalculator.xcdatamodeld */,
 				F4BB08962AD217470076007A /* Preview Content */,
@@ -238,7 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4BB08982AD217470076007A /* Preview Assets.xcassets in Resources */,
-				F4BB08952AD217470076007A /* Assets.xcassets in Resources */,
+				F47D23D32AD31B64005B563B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +269,7 @@
 				F4BB089D2AD217470076007A /* ReceiptCalculator.xcdatamodeld in Sources */,
 				F4BB089A2AD217470076007A /* Persistence.swift in Sources */,
 				F4BB08932AD217460076007A /* ContentView.swift in Sources */,
+				F457CE132AD22E83005B5F14 /* util.swift in Sources */,
 				F4BB08912AD217460076007A /* ReceiptCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
