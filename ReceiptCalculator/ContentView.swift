@@ -74,7 +74,7 @@ struct ContentView: View {
         ScrollView {
             VStack {
                 HStack {
-                    TextField("Enter the total number of shoppers", text: $numShoppers)
+                    TextField("How many shoppers?", text: $numShoppers)
                         .padding()
                         .keyboardType(.numberPad)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -105,7 +105,7 @@ struct ContentView: View {
                 if enterPrice{
                     ForEach(entries.indices, id: \.self) { index in
                         HStack {
-                            TextField("Item Price", text: $entries[index].itemPrice, onCommit: {
+                            TextField("Price", text: $entries[index].itemPrice, onCommit: {
                             })
                             .keyboardType(.decimalPad)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -117,7 +117,7 @@ struct ContentView: View {
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .padding(.trailing)
                             Toggle(isOn: $entries[index].tax) {
-                                Text("tax")
+                                Text("tax").padding(.trailing, -5)
                             }
                             
                         }
@@ -126,6 +126,9 @@ struct ContentView: View {
                     Button("Calculate") {
                         calculateOwes()
                     }.padding()
+                    .background(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.purple]), startPoint: .leading, endPoint: .trailing))
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
                     
                 }
                 

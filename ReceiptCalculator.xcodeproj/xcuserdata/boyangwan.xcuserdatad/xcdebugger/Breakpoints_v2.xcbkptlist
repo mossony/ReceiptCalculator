@@ -65,6 +65,36 @@
                   endingLineNumber = "74"
                   offsetFromSymbolStart = "628">
                </Location>
+               <Location
+                  uuid = "698AA42B-65C0-4709-9BEC-9E28088EB177 - f4e0680415c89b8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt;, Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0)&gt;&gt;, Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;)&gt;&gt; in ReceiptCalculator.ContentView.body.getter : some"
+                  moduleName = "ReceiptCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/boyangwan/Desktop/SwiftProjects/ReceiptCalculator/ReceiptCalculator/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "698AA42B-65C0-4709-9BEC-9E28088EB177 - d335249f4b49125e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0)&gt;&gt;, Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0)&gt;&gt;, Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;)&gt;&gt; in ReceiptCalculator.ContentView.body.getter : some"
+                  moduleName = "ReceiptCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/boyangwan/Desktop/SwiftProjects/ReceiptCalculator/ReceiptCalculator/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "628">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
